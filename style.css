@@ -116,12 +116,12 @@ body{
     z-index: 1;
     top: 50%;
     transform: translateY(-50%);
-    left: 0;
+
+    animation: swipe-left 0.4s;
 }
 
 .light #switch button{
-    transform: translate(100%, -50%);
-    /* left: initial; */
+    animation: swipe-right 0.4s forwards;
 }
 
 
@@ -223,5 +223,25 @@ footer{
     
     .light{
         --bg-url: url(./assets/bg-desktop-light.jpg);
+    }
+}
+
+/*  Animation   */
+
+@keyframes swipe-right{
+    from {
+        left: 0;
+    }
+    to {
+        left: 50%;
+    }
+}
+
+@keyframes swipe-left{
+    from{
+        left: 50%;
+    }
+    to{
+        left: 0;
     }
 }
