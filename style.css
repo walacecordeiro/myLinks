@@ -60,7 +60,8 @@ body{
 #container{
     justify-self: center;
     align-self: center;
-    width: clamp(30rem, 17rem + 56vw, 58.8rem);
+    width: 100%;
+    max-width: 58.8rem;
     padding: 0 clamp(1rem, -13rem + 47vw, 2.4rem);
 }
 
