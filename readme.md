@@ -1,4 +1,4 @@
-<h1 align="center"> Project myLinks </h1>
+<h1 align="center"> myLinks Project</h1>
 
 <p align="center">
 A business card that shows all my information
