@@ -53,7 +53,7 @@ body{
     /* background: color repeat position/size; */
     background: var(--bg-url) no-repeat top center/cover;
     display: grid;
-    height: 100vh;
+    min-height: 100vh;
     color: var(--txt-color);
 }
 
