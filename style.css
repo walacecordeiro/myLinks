@@ -60,7 +60,7 @@ body{
 #container{
     justify-self: center;
     align-self: center;
-    width: clamp(30rem, 17rem + 47vw, 36rem);
+    width: clamp(30rem, 17rem + 56vw, 58.8rem);
     padding: 0 clamp(1rem, -13rem + 47vw, 2.4rem);
 }
 
@@ -212,4 +212,16 @@ footer{
     align-items: center;
 
     padding: 2.4rem 0;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 48em){
+    :root{
+        --bg-url: url(./assets/bg-desktop.jpg);
+    }
+    
+    .light{
+        --bg-url: url(./assets/bg-desktop-light.jpg);
+    }
 }
