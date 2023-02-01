@@ -8,6 +8,10 @@
     color: currentColor;
 }
 
+.hide{
+    display: none;
+}
+
 :root{
     font-size: 62.5%;
 
@@ -159,7 +163,8 @@ ul li a{
 
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+    text-align: center;
 
     padding: 1.6rem 2.4rem;
 
